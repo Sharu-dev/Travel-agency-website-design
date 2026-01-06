@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="WelcomePage.css">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <header><!--Navigation bar-->
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"><a href="WelcomePage.html"><img src="Images/4202060_swift_logo_social_social media_icon.png" alt="Explore world icon"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a class="login" href="login.html" target="_blank"><i class='bx bx-user'></i>Login</a></li>
+                    <li><a href="WelcomePage.html">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials1">Testimonials</a></li>
+                    <li><a href="contactUs.html" target="_blank">Contact us</a></li>
+                    <label for="check" class="close-menu"><i class='bx bx-x'></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class='bx bx-menu'></i></label>
+            </ul>
+        </nav>
+    </header>
+    <div id="home"><!--Heading/ hero section-->
+        <img src="Images/65ea9a06cd8c64e31b7ff7fa_most beautiful landscapes in the world.webp" alt="Waterfall">
+        <div class="heading">
+            <h1>Explore World</h1>
+            <h1 class="sub">Time to Travel</h1>            
+        </div>
+    </div>
+    <div id="hd"><!--Service section-->
+        <h2>Our Services</h2>
+    </div>
+    <div id="services">
+        <div class="container1">
+            <div class="card1" style="--clr:#009688;">
+                <div class="imgbx"><img src="Images/flight-booking.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Flight bookings</h2>
+                    <p>Assisting with booking domestic and international flights, including finding the best routes and prices.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#ff3e7f;">
+                <div class="imgbx"><img src="Images/Hotel reservation.webp" alt=""></div>
+                <div class="content">
+                    <h2>Hotel reservations</h2>
+                    <p>Helping clients find and book accommodations that suit their preferences and budget.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#03a9f4;">
+                <div class="imgbx"><img src="Images/transportation.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Transportation</h2>
+                    <p>Organizing car rentals, airport transfers, and other transportation needs.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#009688;">
+                <div class="imgbx"><img src="Images/Vacation packages.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Vacation packages</h2>
+                    <p>Putting together all-inclusive travel packages that may include flights, accommodations, and activities.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#ff3e7f;">
+                <div class="imgbx"><img src="Images/Cruise-Ship-12.webp" alt=""></div>
+                <div class="content">
+                    <h2>Cruise bookings</h2>
+                    <p>Assisting with selecting and booking cruises to various destinations.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#03a9f4;">
+                <div class="imgbx"><img src="Images/travel-insurance.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Travel insurance</h2>
+                    <p>Recommending and arranging travel insurance coverage to protect clients during their trips.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#009688;">
+                <div class="imgbx"><img src="Images/visa and passport.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Visa and passport</h2>
+                    <p>Providing information on visa requirements, helping with visa applications, and advising on passport renewal.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#ff3e7f;">
+                <div class="imgbx"><img src="Images/travelAdvisories.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Travel advisories</h2>
+                    <p>Keeping clients informed about travel advisories, entry requirements, and other important travel-related information.</p>
+                </div>
+            </div>
+            <div class="card1" style="--clr:#03a9f4;">
+                <div class="imgbx"><img src="Images/destination information.jpg" alt=""></div>
+                <div class="content">
+                    <h2>Destination information</h2>
+                    <p>Offering insights and recommendations on various travel destinations, including attractions, local customs, and safety tips.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="gallery1"><!--PC supported gallery section-->
+        <h2>Let's travel around the world!</h2>
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="ic">1</div>
+                        <div class="des">
+                            <h4>Japan</h4>
+                            <p>Hakone is at the historic, cultural, and natural crossroads of Japan.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="ic">2</div>
+                        <div class="des">
+                            <h4>California</h4>
+                            <p>Disneyland is a theme park at the Disneyland Resort in Anaheim, California.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="ic">3</div>
+                        <div class="des">
+                            <h4>Canada</h4>
+                            <p>Moraine Lake in the Rocky Mountains.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="ic">4</div>
+                        <div class="des">
+                            <h4>New York City</h4>
+                            <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor, within New York City.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c5">
+                <label for="c5" class="card">
+                    <div class="row">
+                        <div class="ic">5</div>
+                        <div class="des">
+                            <h4>United Kingdom</h4>
+                            <p>Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles west of Amesbury.</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c6">
+                <label for="c6" class="card">
+                    <div class="row">
+                        <div class="ic">6</div>
+                        <div class="des">
+                            <h4>Korea</h4>
+                            <p>Jinhae-gu is famous for its annual cherry blossom festival every spring.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+    <section class="for-mobile-gallery"><!--Mobile supported gallery section-->
+        <div class="ph">
+            <div class="p1" id="start">
+                <img src="Images/Europ1.jpg" alt="Europ">
+                <p>Europ</p>
+            </div>
+            <div class="p2">
+                <img src="Images/France1.webp" alt="France">
+                <p>France</p>
+            </div>
+            <div class="p3">
+                <img src="Images/London.jpeg" alt="London">
+                <p>London</p>
+            </div>
+            <div class="p4">                
+                <img src="Images/china1.jpg" alt="China">
+                <p>China</p>
+            </div>
+            <div class="p5">
+                <img src="Images/Sri lanka.jpg" alt="Sri lanka">
+                <p>Sri Lanka</p>
+            </div>
+            <div class="p6" id="maldives">
+                <img src="Images/Maldives.jpeg" alt="Maldives">
+                <p>Maldives</p>
+            </div>
+            <a href="#maldives"><i class='bx bx-chevron-right'></i></a>
+            <a href="#start"><i class='bx bx-chevron-left'></i></a>
+        </div>
+    </section><!--Customer reviews-->
+    <div class="hd1">
+        <h2>Some customers' review here....</h2>
+    </div>  
+    <section id="testimonials1">
+        <div class="box1">
+            <div class="elements1 bg1"></div>
+            <div class="elements1 ima1">
+                <img src="Images/pexels-soldiervip-1382730.jpg" alt="cute korean girl">
+            </div>
+            <div class="elements1 name1">
+                <h2>Amelia Watson</h2>
+            </div>
+            <div class="elements1 content1">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis dolor ipsa magnam perferendis modi blanditiis explicabo optio accusantium? Provident quia vitae magnam repudiandae alias quis vel fuga blanditiis! Temporibus, vitae.</p>
+            </div>
+            <div class="card2"></div>
+        </div>
+        <div class="box2">
+            <div class="elements2 bg2"></div>
+            <div class="elements2 ima2">
+                <img src="Images/pexels-rb-audiovisual-1819483.jpg" alt="cute korean girl">
+            </div>
+            <div class="elements2 name2">
+                <h2>Jason Roy</h2>
+            </div>
+            <div class="elements2 content2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis dolor ipsa magnam perferendis modi blanditiis explicabo optio accusantium? Provident quia vitae magnam repudiandae alias quis vel fuga blanditiis! Temporibus, vitae.</p>
+            </div>
+            <div class="card3"></div>
+        </div>
+    </section>
+    <!--Customer opinion and rating section-->
+    <section class="re-view">
+        <div class="container2">
+            <h3>Leave your opinion here</h3>
+            <form action="#">
+                <div class="rating">
+                    <input type="number" name="rating" hidden>
+                    <i class='bx bx-star star' style="--i: 0;"></i>
+                    <i class='bx bx-star star' style="--i: 1;"></i>
+                    <i class='bx bx-star star' style="--i: 2;"></i>
+                    <i class='bx bx-star star' style="--i: 3;"></i>
+                    <i class='bx bx-star star' style="--i: 4;"></i>
+                </div>
+                <textarea name="opinion" cols="30" rows="5" placeholder="Write your opinion..."></textarea>
+                <div class="btn-group">
+                    <button type="submit" class="btn1 submit">Submit</button>
+                    <button class="btn1 cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer><!--Footer-->
+        <div class="socialmd">
+            <ul class="sm-links">
+                <li><a href="https://web.facebook.com/chandhru.sharu" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="https://www.instagram.com/shar_uban/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="mailto:chandhru739@gmail.com"><i class='bx bxl-gmail'></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCUgWEYfL7ZtPWzkF9YURY_Q" target="_blank"><i class='bx bxl-youtube'></i></i></a></li>
+            </ul>            
+        </div>
+        <div class="contact"><!--Contact information-->
+            <ul>
+                <li><i class='bx bx-map add'></i><a href="https://www.google.com/maps/place/Rothes+Pl,+Hatton/@6.8977119,80.5877507,17.08z/data=!4m15!1m8!3m7!1s0x3ae39b75d2f8d5b3:0x51dd7964edfea90b!2sRothes+Pl,+Hatton!3b1!8m2!3d6.8981098!4d80.5896069!16s%2Fg%2F11pcmhsrbg!3m5!1s0x3ae39b75d2f8d5b3:0x51dd7964edfea90b!8m2!3d6.8981098!4d80.5896069!16s%2Fg%2F11pcmhsrbg?entry=ttu" target="_blank"><p class="add">34/A Roththes place,<br> Hatton, <br>Sri Lanka</p></a></li>
+                <li><p class="phone"><i class='bx bx-phone'></i>Phone: +94 76 5737 857</p></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright"><!--Copyright text-->
+        <p>Copyright © 2024 Explore World. All rights reserved.</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-chevrons-up'></i></button>
+    <script src="star.js"></script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>        
+    <script>
+        VanillaTilt.init(document.querySelector(".box1"), {
+		max: 15,
+		speed: 400,
+        glare: true
+	});
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelector(".box2"), {
+		max: 15,
+		speed: 400,
+        glare: true
+	});
+    </script>
+</body>
+</html>
